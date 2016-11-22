@@ -63,4 +63,17 @@ public class app12141389 {
                                 else{
                                     NilaiPasJalan=0; 
                                 }
+                                int NeTebak=Kout+1;
+                                
+                                System.out.println("Selamat Anda berhasil menebak Angka dalam " + NeTebak + " kali tebakan. Sekor anda adalah " + NilaiPasJalan);
+                                break;
+
+                            }
+                            else{ 
+                                if(AkuTeb>AngKaAcak){
+                                    System.out.println("Tebakan Anda terlalu Besar! Anda mempunyai kesempatan " + Kurang + " kali lagi" );
+                                }
+                                else{
+
+                                    System.out.println("Tebakan Anda terlalu Kecil! Anda mempunyai kesempatan " + Kurang + " kali lagi" );
                             
