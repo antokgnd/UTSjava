@@ -48,3 +48,19 @@ public class app12141389 {
                             int AkuTeb=input2.nextInt();
                             int Kurang=4-Kout;
                             if(AkuTeb==AngKaAcak){
+                                if(Kout==0){
+                                    NilaiPasJalan=PiLevel*100; 
+                                }
+                                else if(Kout==1){
+                                    NilaiPasJalan=PiLevel*70; 
+                                }
+                                else if(Kout==2){
+                                    NilaiPasJalan=PiLevel*50; 
+                                }
+                                else if(Kout==3){
+                                    NilaiPasJalan=PiLevel*30;
+                                }
+                                else{
+                                    NilaiPasJalan=0; 
+                                }
+                            
