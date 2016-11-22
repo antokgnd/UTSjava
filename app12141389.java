@@ -76,4 +76,19 @@ public class app12141389 {
                                 else{
 
                                     System.out.println("Tebakan Anda terlalu Kecil! Anda mempunyai kesempatan " + Kurang + " kali lagi" );
-                            
+                            }
+                            }
+                        }
+                    }
+                    if(CekGameOver>0){
+                        break;
+                    }
+                    
+                    if(PiLevel==5){ 
+                        break;
+                    }
+                    else{
+                    aKumulasi[StarNilaiO]=NilaiPasJalan;    
+                    System.out.println("Ketik 'next' dan tekan enter untuk lanjut ke Level berikutnya atau ketik 'exit' untuk keluar : ");
+                    nextLevel=input.nextLine(); 
+                    PiLevel++;
