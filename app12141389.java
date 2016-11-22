@@ -43,3 +43,8 @@ public class app12141389 {
                             System.out.println("GAMEOVER! Anda Gagal");
                             CekGameOver++; 
                         }
+                        else{  
+                            System.out.println("Tebakan Anda ? " + AngKaAcak);
+                            int AkuTeb=input2.nextInt();
+                            int Kurang=4-Kout;
+                            if(AkuTeb==AngKaAcak){
