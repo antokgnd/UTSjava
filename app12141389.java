@@ -102,4 +102,16 @@ public class app12141389 {
             for(int rO=0; rO<5; rO++){ 
                 NilaiJalan=NilaiJalan+aKumulasi[rO];  
             }
-            sekorPermainan.add(NilaiJalan);
+            skorPermainan.add(NilaiJalan);
+            
+        }        
+        while(!"y".equals(cariY)); 
+        int jumPemain=namaPemain.size(); 
+        System.out.println("SCORE AKHIR");
+        System.out.println("=================================");
+        int l;
+        for(l=0;l<jumPemain-1;l++){
+            System.out.println(namaPemain.get(l) + " : " + skorPermainan.get(l)); 
+        }
+    }
+}
