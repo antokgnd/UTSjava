@@ -38,3 +38,8 @@ public class app12141389 {
                     System.out.println("Silahkan Tebak Antara 1 s/d " + Pang);
                     System.out.println("Anda mempunyai kesempatan menebak 5 kali.");
                     int AngKaAcak=angkaRandom.nextInt(Pang);
+                    for(Kout=0;Kout<=5;Kout++){
+                        if(Kout==5){ 
+                            System.out.println("GAMEOVER! Anda Gagal");
+                            CekGameOver++; 
+                        }
