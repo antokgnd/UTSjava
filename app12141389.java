@@ -13,7 +13,7 @@ public class app12141389 {
         Scanner input = new Scanner(System.in);
         Scanner input2= new Scanner(System.in);
         Random angkaRandom = new Random();
-        String cari Y;
+        String cariY;
         
         do{
             System.out.println("Masukkan 'Nama' anda atau tekan 'y' untuk keluar, kemudian tekan enter = ");
@@ -26,4 +26,9 @@ public class app12141389 {
             int NilaiPasJalan=0;
             
             if(!("y").equals(cariY)){ 
+                // ------------------- START TEBAK DISINI --------------------------  
+                String nextLevel;
+                int PiLevel=1;   
+                System.out.println("Selamat Datang " + cariY);
+                do{
 
