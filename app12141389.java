@@ -92,3 +92,14 @@ public class app12141389 {
                     System.out.println("Ketik 'next' dan tekan enter untuk lanjut ke Level berikutnya atau ketik 'exit' untuk keluar : ");
                     nextLevel=input.nextLine(); 
                     PiLevel++;
+                    }
+                   
+                }
+                while(!"exit".equals(nextLevel));
+              
+              // ------------------- END OF GAME TEBAK -------------------------
+            } 
+            for(int rO=0; rO<5; rO++){ 
+                NilaiJalan=NilaiJalan+aKumulasi[rO];  
+            }
+            sekorPermainan.add(NilaiJalan);
